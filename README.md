@@ -1,5 +1,5 @@
-# Analysis of example financial data from a Superstore in SQL, visualisations with Power BI
-This project is designed to analyse and visualise historic example financial data from a Superstore Giant. Data consists of product sales, profit and discounts, customer information, regional sale information and shipping type. The original dataset was split into smaller tables using SQL queries in order for the data to be easily visualised in Power BI.
+# Analysis of Example Financial Data from a Superstore in SQL, Visualisations with Power BI
+This project is designed to analyse and visualise historic example financial data from a Superstore Giant. Data consists of product sales, profit and discounts, customer information, regional sale information and shipping type. The original dataset was split into smaller tables using SQLite queries in order for the data to be easily visualised in Power BI.
 
 ## The Data
 The original example data can be found on the kaggle website here [1]. This data was transformed into various .csv files which can be found in the data folder. The associated SQL files used to create these .csv files can be found in the sql folder and have the same name as the .csv file they created. A short comment in each file shows which graphics the data was used for in Power BI.
@@ -53,7 +53,19 @@ Some insights:
 
 ## Recommended Follow Ups
 The data visualisations show a great deal of insights into the company's historic sales and profit/loss distributions. They also provide some insights that could be followed up on.
-- Why do some states (Texas, Pennsylvania, Florida etc.) incur losses to the company despite having high sales. 
+- Why do some states (Texas, Pennsylvania, Florida etc.) incur losses to the company despite having high sales? Check what kinds of items customers from these states are purchasing and the shipping modes they use.
+- Should the company continue to sell Tables, Bookcases and Supplies if they are unprofitable. Are their products within these categories that are profitable that the company could try to sell more of?
+- Are discounts higher than 20% viable? Further analysis of the role that high discounted items play on overall profits is needed. Are these sales useful as "loss leaders", are customers more likely to buy more or buy in the future if they buy a heavily discounted product?
+- Does shipping mode really have an impact on the sale's profit? First Class appears slightly more profitable, but is this statistically significant given the sample size? A statistical analyis of the data's distribution would be needed.
+- What's the mean and standard deviation of the number of orders per customer.
+
+If you want to investigate any of these questions. Feel free to clone this repository, load in the data from the .csv files in the data folder and analyse this data for yourself.
 
 ## Citations
 [1] https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download
+
+## Summary
+This project has allowed me to:
+- Further my skills in SQL to prodce useful data subsets.
+- Showcase my data visualisation skills in Power BI.
+- Improve my statistical and critical thinking skills in a financial setting to give data driven insights and recommendations.
