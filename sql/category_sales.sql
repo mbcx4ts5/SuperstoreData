@@ -1,3 +1,7 @@
+--Used to find the top 5 most and least profitable categories
+--as well as Sales by Category donut chart, the Sub-Category Profit vs
+--Sales scatter and Total Products Sold bar chart in Product Analysis.
+
 SELECT
   Category,
   "Sub-Category",

@@ -1,3 +1,7 @@
+--Used for the Pareto curve of cumulative customers and profit in
+--Customer Segment Analysis.
+--Shows around 40% of customers make 80% of positive profits.
+
 WITH CustomerProfits AS (
   --Getting customer data and profits per customer
   SELECT

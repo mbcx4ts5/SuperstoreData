@@ -1,3 +1,6 @@
+--Used to show profits of products by category and sub-category bar chart
+--in Product Analysis.
+
 SELECT
   "Product ID",
   "Product Name",

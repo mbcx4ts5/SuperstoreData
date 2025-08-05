@@ -1,3 +1,5 @@
+--Used to create the "Monthly Sales and Monthly Profit
+--visual as well as the KPIs table in Sales Overview.
 SELECT
   CAST(
     SUBSTR("Order Date", LENGTH("Order Date") - 3) AS INTEGER

@@ -1,3 +1,6 @@
+--Used to create the regional Sales by State map and
+--top 10 States by Sales/Profit tables in Sales Overview.
+
 SELECT
   Region,
   State,

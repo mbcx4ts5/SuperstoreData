@@ -1,3 +1,5 @@
+--Used for the table of ship mode data in Customer Segment Analysis
+
 -- Get a table where profits are ranked by ship mode
 WITH RankedProfits AS (
   SELECT

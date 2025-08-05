@@ -12,6 +12,9 @@ WITH ProfitPerCustomer AS (
     ORDER BY orders_per_customer DESC
 )
 
+--Used for the Number of Customers per Segment by Orders per Customer stacked
+--column chart in Customer Segment Analaysis.
+
 SELECT
   *, 
   (CASE
