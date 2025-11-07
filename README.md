@@ -1,4 +1,4 @@
-# Analysis of Example Financial Data from a Superstore Using SQL and PowerBI
+# Analysis of Example Financial Data from a Superstore Using SQL and Power BI
 
 This project is designed to analyse and visualise historic example financial data from a Superstore. The dataset consists of data on product sales, profits and discounts, customer information, regional sale information and shipping type. Data wrangling was done using SQLite and then visualised using Power BI.
 
